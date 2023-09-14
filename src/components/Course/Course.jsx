@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
-const Course = ({course}) => {
-    // console.log(course);
+const Course = ({course, selectCourse}) => {
     const {course_name, image, course_details, price, credit} = course;
     return (
         <div className='bg-[white] p-5 space-y-4 rounded-lg drop-shadow-md'>
@@ -14,7 +13,7 @@ const Course = ({course}) => {
                 <p>Credit: {credit}hr</p>
             </div>
             <div className='flex justify-center drop-shadow-md'>
-                <button className='bg-[#2F80ED] text-white px-16 py-2 rounded-xl text-lg'>Select</button>
+                <button onClick={ () => selectCourse(course) } className='bg-[#2F80ED] text-white px-16 py-2 rounded-xl text-lg'>Select</button>
             </div>
         </div>
     );
@@ -22,6 +21,7 @@ const Course = ({course}) => {
 
 Course.propTypes = {
     course: PropTypes.object.isRequired,
+    selectCourse: PropTypes.func,
 }
 
 export default Course;
