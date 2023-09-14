@@ -1,0 +1,74 @@
+[
+    {
+      "id": 101,
+      "course_name": "Introduction to Programming",
+      "image": "https://i.ibb.co/f0Hp4fL/rectangle2.png",
+      "credit": 3,
+      "price": 199.99,
+      "course_details": "A beginner's guide to programming."
+    },
+    {
+      "id": 102,
+      "course_name": "Web Development Fundamentals",
+      "image": "https://i.ibb.co/cQnqZS2/rectangle2-1.png",
+      "credit": 4,
+      "price": 249.99,
+      "course_details": "Learn the basics of web development."
+    },
+    {
+      "id": 103,
+      "course_name": "Data Science Essentials",
+      "image": "https://i.ibb.co/QHMtNnY/rectangle2-2.png",
+      "credit": 5,
+      "price": 299.99,
+      "course_details": "An introduction to data science and analytics."
+    },
+    {
+      "id": 104,
+      "course_name": "Machine Learning Foundations",
+      "image": "https://i.ibb.co/kX86xkj/rectangle2-3.png",
+      "credit": 4,
+      "price": 349.99,
+      "course_details": "Get started with machine learning concepts."
+    },
+    {
+      "id": 105,
+      "course_name": "Mobile App Development",
+      "image": "https://i.ibb.co/px95fWk/rectangle2-4.png",
+      "credit": 5,
+      "price": 399.99,
+      "course_details": "Create mobile apps for iOS and Android."
+    },
+    {
+      "id": 106,
+      "course_name": "Database Design and SQL",
+      "image": "https://i.ibb.co/XpSn2Jj/rectangle2-5.png",
+      "credit": 3,
+      "price": 199.99,
+      "course_details": "Learn about databases and SQL queries."
+    },
+    {
+      "id": 107,
+      "course_name": "Graphic Design Basics",
+      "image": "https://i.ibb.co/Z85V5YQ/rectangle2-6.png",
+      "credit": 2,
+      "price": 149.99,
+      "course_details": "Introduction to graphic design principles."
+    },
+    {
+      "id": 108,
+      "course_name": "Digital Marketing Fundamentals",
+      "image": "https://i.ibb.co/VHsBTXz/rectangle3.png",
+      "credit": 3,
+      "price": 199.99,
+      "course_details": "Explore the world of digital marketing."
+    },
+    {
+      "id": 109,
+      "course_name": "Cybersecurity Essentials",
+      "image": "https://i.ibb.co/vsr9GDn/rectangle3-1.png",
+      "credit": 4,
+      "price": 299.99,
+      "course_details": "An introduction to cybersecurity concepts."
+    }
+]
