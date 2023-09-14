@@ -6,7 +6,7 @@ const Course = ({course, selectCourse}) => {
             <div className='flex justify-center'>
                 <img className='w-full' src={image} alt="" />
             </div>
-            <h2 className='text-xl font-semibold'>{course_name}</h2>
+            <h2 className='text-lg font-bold'>{course_name}</h2>
             <p className='text-[#1C1B1B99] text-sm'>{course_details}</p>
             <div className='text-[#1C1B1B99] text-base flex justify-between'>
                 <p>Price: {price} $</p>

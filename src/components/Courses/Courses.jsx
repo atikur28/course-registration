@@ -11,7 +11,7 @@ const Courses = ({selectCourse}) => {
           .then( data => setCourses(data) );
     }, [])
     return (
-        <div className="w-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="w-fit grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
             {
                 courses.map( (course, idx) => <Course key={idx} course={course} selectCourse={selectCourse} ></Course> )
             }
