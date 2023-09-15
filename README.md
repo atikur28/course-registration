@@ -1,6 +1,3 @@
-# Course-Registration
-
-
 # Add at least 3 Project features. 
 - First = Course Selection and Credit Calculation: We can browse and select courses from the provided carts. As we select courses, the website dynamically calculates the total credit hours. It should enforce a maximum limit of 20 credit hours to ensure students don't exceed their capacity. Second = Course Information Display: When we select a course, the website should display detailed information about the course, including the course name. This information helps students make informed choices. Third = Interactive User Interface: The website should offer an intuitive and user-friendly interface that allows users to easily add. It should provide real-time updates on credit hours and course details as we make selections, ensuring informative registration process.
 
