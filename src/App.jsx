@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import CourseInfo from './components/CourseInfo/CourseInfo'
 import Courses from './components/Courses/Courses'
+import Swal from 'sweetalert2'
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -12,7 +13,7 @@ function App() {
     const isExist = cart.find( item => item.id == course.id );
     let hour = course.credit;
     if(isExist){
-      return alert('This Course is already selected');
+      return Swal.fire('This Course is already selected');
     }
     else{
       cart.forEach( item => {
@@ -20,7 +21,7 @@ function App() {
       } );
       const remainingHour = 20 - hour;
       if( hour > 20 ){
-        return alert('You can not choice Courses more than 20 Hour');
+        return Swal.fire('You can not choice Courses more than 20 Hour');
       }
       else{
         setTotalHour(hour);

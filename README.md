@@ -1,8 +1,8 @@
-# React + Vite
+# Course-Registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Add at least 3 Project features. 
+- First = Course Selection and Credit Calculation: We can browse and select courses from the provided carts. As we select courses, the website dynamically calculates the total credit hours. It should enforce a maximum limit of 20 credit hours to ensure students don't exceed their capacity. Second = Course Information Display: When we select a course, the website should display detailed information about the course, including the course name. This information helps students make informed choices. Third = Interactive User Interface: The website should offer an intuitive and user-friendly interface that allows users to easily add. It should provide real-time updates on credit hours and course details as we make selections, ensuring informative registration process.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Discuss how you managed the state in your assignment project.
+- I used local state management within my front-end application to keep track of selections and credit hours of course's cart, remainingHour and totalHour etc. This can be done using state management libraries like React 'useState' hook. When we select a course, the website sends a request to the API to fetch the course details. Storing the data as course name and credit hours in the 'useState', then it shows the details using 'useEffect' function.
