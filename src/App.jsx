@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <h1 className='text-4xl font-bold text-center my-10'>Course Registration</h1>
-      <div className='flex flex-col lg:flex-row gap-7 justify-center'>
+      <div className='flex flex-col lg:flex-row gap-7 justify-center mb-16'>
         <div className='flex justify-center'>
           <Courses selectCourse={selectCourse}></Courses>
         </div>

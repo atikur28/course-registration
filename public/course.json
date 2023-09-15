@@ -1,74 +1,74 @@
 [
     {
       "id": 101,
-      "course_name": "Introduction to Programming",
-      "image": "https://i.ibb.co/f0Hp4fL/rectangle2.png",
+      "course_name": "Introduction to C Programming",
+      "image": "https://i.ibb.co/QHMtNnY/rectangle2-2.png",
       "credit": 3,
       "price": 199.99,
-      "course_details": "A beginner's guide to programming."
+      "course_details": "C Programming is a versatile, procedural language known for its efficiency, used for software development."
     },
     {
       "id": 102,
-      "course_name": "Web Development Fundamentals",
-      "image": "https://i.ibb.co/cQnqZS2/rectangle2-1.png",
+      "course_name": "Introduction to Algorithms",
+      "image": "https://i.ibb.co/kX86xkj/rectangle2-3.png",
       "credit": 4,
       "price": 249.99,
-      "course_details": "Learn the basics of web development."
+      "course_details": "Algorithms are step-by-step procedures for solving problems, fundamental in computer science and various applications."
     },
     {
       "id": 103,
-      "course_name": "Data Science Essentials",
-      "image": "https://i.ibb.co/QHMtNnY/rectangle2-2.png",
+      "course_name": "Introduction to C++ for DSA",
+      "image": "https://i.ibb.co/px95fWk/rectangle2-4.png",
       "credit": 5,
       "price": 299.99,
-      "course_details": "An introduction to data science and analytics."
+      "course_details": "C++ is a powerful programming language used in Data Structures and Algorithms (DSA) for efficient problem-solving."
     },
     {
       "id": 104,
-      "course_name": "Machine Learning Foundations",
-      "image": "https://i.ibb.co/kX86xkj/rectangle2-3.png",
+      "course_name": "Basic Data Structures",
+      "image": "https://i.ibb.co/VHsBTXz/rectangle3.png",
       "credit": 4,
       "price": 349.99,
-      "course_details": "Get started with machine learning concepts."
+      "course_details": "Basic data structures include arrays, linked lists, stacks, and queues, crucial for organizing and manipulating data."
     },
     {
       "id": 105,
-      "course_name": "Mobile App Development",
-      "image": "https://i.ibb.co/px95fWk/rectangle2-4.png",
+      "course_name": "Introduction to OOP Python",
+      "image": "https://i.ibb.co/f0Hp4fL/rectangle2.png",
       "credit": 5,
       "price": 399.99,
-      "course_details": "Create mobile apps for iOS and Android."
+      "course_details": "Object-Oriented Programming (OOP) in Python focuses on creating reusable, modular code using classes and objects."
     },
     {
       "id": 106,
-      "course_name": "Database Design and SQL",
+      "course_name": "Software Engineering",
       "image": "https://i.ibb.co/XpSn2Jj/rectangle2-5.png",
       "credit": 3,
       "price": 199.99,
-      "course_details": "Learn about databases and SQL queries."
+      "course_details": "Software engineering is a systematic, disciplined approach to designing, developing, and maintaining software systems efficiently and reliably."
     },
     {
       "id": 107,
-      "course_name": "Graphic Design Basics",
-      "image": "https://i.ibb.co/Z85V5YQ/rectangle2-6.png",
+      "course_name": "AWS, Cloud Computing",
+      "image": "https://i.ibb.co/vsr9GDn/rectangle3-1.png",
       "credit": 2,
       "price": 149.99,
-      "course_details": "Introduction to graphic design principles."
+      "course_details": "Amazon Web Services (AWS) is a leading cloud computing platform, offering scalable and cost-effective infrastructure and services."
     },
     {
       "id": 108,
-      "course_name": "Digital Marketing Fundamentals",
-      "image": "https://i.ibb.co/VHsBTXz/rectangle3.png",
+      "course_name": "Database (MySQL)",
+      "image": "https://i.ibb.co/cQnqZS2/rectangle2-1.png",
       "credit": 3,
       "price": 199.99,
-      "course_details": "Explore the world of digital marketing."
+      "course_details": "MySQL is an open-source relational database management system, widely used for data storage and retrieval in applications."
     },
     {
       "id": 109,
-      "course_name": "Cybersecurity Essentials",
-      "image": "https://i.ibb.co/vsr9GDn/rectangle3-1.png",
+      "course_name": "Problem-Solving Part",
+      "image": "https://i.ibb.co/Z85V5YQ/rectangle2-6.png",
       "credit": 4,
       "price": 299.99,
-      "course_details": "An introduction to cybersecurity concepts."
+      "course_details": "Problem-solving involves identifying, analyzing, and finding solutions to challenges or issues using critical thinking and creativity."
     }
 ]

@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 const CourseInfo = ({cart, remainingHour, totalHour}) => {
-    // console.log(cart);
     return (
         <div className="w-fit lg:w-1/4 bg-white h-fit p-5 rounded-lg ml-9 md:ml-60 lg:-ml-1">
             <h2 className='text-xl font-semibold text-[#2F80ED] border-b-2 pb-3'>Credit Hour Remaining: {remainingHour} hr</h2>
