@@ -5,8 +5,8 @@ const CourseInfo = ({cart, remainingHour, totalHour}) => {
             <h2 className='text-xl font-semibold text-[#2F80ED] border-b-2 pb-3'>Credit Hour Remaining: {remainingHour} hr</h2>
             <h2 className='text-xl font-bold my-4'>Course Name</h2>
             {
-                cart.map( item => (
-                    <li className='mb-1' key={item.id}>{item.course_name}</li>
+                cart.map( (item, idx) => (
+                    <p className='mb-1' key={item.id}>{++idx}. {item.course_name}</p>
                 ) )
             }
             <h2 className="text-lg font-medium text-[#1C1B1BCC] border-t-2 pt-3">Total Credit Hour : {totalHour}</h2>
