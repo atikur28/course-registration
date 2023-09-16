@@ -13,7 +13,12 @@ function App() {
     const isExist = cart.find( item => item.id == course.id );
     let hour = course.credit;
     if(isExist){
-      return Swal.fire('This Course is already selected');
+      return (
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'This Course is already selected'
+        })
     }
     else{
       cart.forEach( item => {
@@ -21,7 +26,12 @@ function App() {
       } );
       const remainingHour = 20 - hour;
       if( hour > 20 ){
-        return Swal.fire('You can not choice Courses more than 20 Hour');
+        return (
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Credit Can not be taken more than 20 hours'
+          })
       }
       else{
         setTotalHour(hour);
